@@ -110,7 +110,7 @@ if summarize_tickets:
     with st.spinner('Summarizing tickets...'):
         import google.generativeai as genai
         
-        GOOGLE_API_KEY="AIzaSyDEbITaVUHwJoryven2aXOECow0IsW-e8I"
+        GOOGLE_API_KEY="APIKEY"
         genai.configure(api_key=GOOGLE_API_KEY)
         llm = genai.GenerativeModel('gemini-pro')
 
