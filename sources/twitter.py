@@ -6,7 +6,7 @@ url = "https://twitter154.p.rapidapi.com/search/search"
 
 
 headers = {
-	"X-RapidAPI-Key": "084fc27d04msh9d18efbcb36d873p1d4dfbjsn04b89bae060c",
+	"X-RapidAPI-Key": "apikey",
 	"X-RapidAPI-Host": "twitter154.p.rapidapi.com"
 }
 

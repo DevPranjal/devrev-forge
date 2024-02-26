@@ -1,6 +1,6 @@
 import requests
 
-api_key = "21cc93dfe26b4dbb94dfe0c5cb46ea3b"
+api_key = "apikey"
 
 def get_news(query, k):
     url = f"https://newsapi.org/v2/top-headlines?q={query}&apiKey={api_key}"

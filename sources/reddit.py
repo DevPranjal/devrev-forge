@@ -2,9 +2,9 @@ import praw
 from datetime import datetime
 import json
 
-client_id = "753dHhmqWu6pBEs4mDEs2w"
-client_secret = "WmkKW2R0KaEJ84EWMasITlI4rRmxYw"
-user_agent = "tachyon-11"
+client_id = "id"
+client_secret = "secret"
+user_agent = "uname"
 
 
 def get_reddit_posts(query, subreddit, k=10):

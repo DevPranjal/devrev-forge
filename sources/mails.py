@@ -8,7 +8,7 @@ import pandas as pd
 def clean(text):
     return "".join(c if c.isalnum() else "_" for c in text)
 
-user, password = "just.for.inter.iit.tech@gmail.com", "keff qiva efso eged"
+user, password = "mailid", "password"
 
 imap_url = "imap.gmail.com"
 imap = imaplib.IMAP4_SSL(imap_url)
